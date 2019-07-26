@@ -30,15 +30,31 @@ body {
   justify-content: space-around;
 }
 
+.row6 {
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
 h1 {
   text-align: center;
-  background-color: #C04AFF;
-font-size: 75px
+  /* background-color: #C04AFF; */
+  background-image: url(https://i.stack.imgur.com/poux8.gif);
+font-size: 75px;
+font-family: 'Monoton', cursive;
 }
+/*
+h1:hover {
+  color: white;
+} */
 
 .landscape1 {
   border: 3px dashed #55FF4B;
   height:300px
+}
+
+.landscape1:hover {
+    border: 3px dashed #5C15FF;
 }
 
 .landscape2 {
@@ -46,9 +62,18 @@ font-size: 75px
   height:350px
 }
 
+.landscape2:hover {
+  border: 3px dashed #55FF4B;
+}
+
 .landscape3 {
   border: 3px dashed #5C15FF;
   height:400px
+}
+
+.landscape3:hover {
+  border: 3px dashed #FFF32A;
+
 }
 
 .portrait1 {
@@ -56,9 +81,17 @@ font-size: 75px
   height:500px;
 }
 
+.portrait1:hover {
+  border: 3px solid #00FCFF;
+}
+
 .portrait2 {
   border: 3px solid #FF174A;
   height:525px;
+}
+
+.portrait2:hover {
+  border: 3px solid #FF42AB;
 }
 
 .portrait3 {
@@ -66,7 +99,41 @@ font-size: 75px
   height:550px;
 }
 
+.portrait3:hover {
+  border: 3px solid #FF174A;
+
+}
+
 .square {
   border: 3px dashed #55FF4B;
   height:400px
+}
+
+.square:hover {
+  border: 3px dashed #00FCFF;
+
+}
+.redirect {
+  justify-content: center;
+  background-image: url(https://i.stack.imgur.com/poux8.gif);
+  font-family: 'Londrina Shadow', cursive;
+  display: flex;
+  font-size: 50px;
+  width: 300px;
+
+}
+.redirect:hover {
+background-color: black;
+color: white;
+}
+
+.lights {
+  display: flex;
+  justify-content: center;
+}
+
+.gif {
+  display: flex;
+  justify-content: center;
+
 }
